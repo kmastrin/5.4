@@ -5,7 +5,7 @@ text.style.color = "ffffff"; // change CSS with JS
 
 changeColor.addEventListener("click", function() {
     text.classList.toggle("change");
-});
+}); // HTML Dom Manipulation
 
 const userList = document.querySelectorAll(".inventory li");
 console.log(userList);
